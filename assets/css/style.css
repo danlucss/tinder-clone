@@ -48,11 +48,12 @@ body {
 /* Photo and Actions  */
 .photo {
   height: calc(100vh - 8rem);
+  margin: 5px;
   background: url(/assets/img/pexels-ozan-çulha-12189062.jpg) center
       center/cover no-repeat,
     linear-gradient(to bottom, #0e0e0ee5, #0e0e0ee5);
 
-  border-radius: 1rem;
+  border-radius: 0.7rem;
 
   display: flex;
   flex-direction: column;
@@ -100,22 +101,31 @@ body {
 .actions {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   gap: 2rem;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .action {
   border: 1px solid currentColor;
   border-radius: 80%;
-  padding: 1rem;
 
   cursor: pointer;
 
   font-weight: bold;
 }
+
+.action i {
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.action i:hover {
+  transform: scale(1.4);
+}
+
 .action:nth-child(even) {
   font-size: 1.5rem;
 }
