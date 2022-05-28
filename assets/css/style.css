@@ -207,6 +207,8 @@ body {
 
   font-size: 1.5rem;
   color: rgb(177, 173, 173);
+
+  cursor: pointer;
 }
 
 .app-settings-item:nth-child(1) {
@@ -229,14 +231,15 @@ body {
   position: absolute;
 }
 
-.togle-dark-mode {
-  position: absolute;
-  right: 10px;
+.app-settings-item:hover {
+  transform: scale(1.2);
+}
 
-  font-size: 1.5rem;
-  background: none;
-  color: #eee;
-  border: none;
-
-  cursor: pointer;
+@media screen and (min-width: 768px) {
+  .photo {
+    background: url(/assets/img/pexels-ozan-çulha-12189062.jpg) no-repeat,
+      url(/assets/img/pexels-ozan-çulha-12189044.jpg) no-repeat;
+    background-size: cover;
+    background-position: center -500px;
+  }
 }
