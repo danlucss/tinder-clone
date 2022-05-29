@@ -51,7 +51,7 @@ body {
 .photo {
   height: calc(100vh - 8rem);
   margin: 5px;
-  background: url(./assets/img/perfil-photo1.jpg) center center/cover no-repeat,
+  background: url(perfil-photo1.jpg) center center/cover no-repeat,
     linear-gradient(to bottom, #0e0e0ee5, #0e0e0ee5);
 
   border-radius: 0.7rem;
@@ -246,11 +246,12 @@ body {
     left: 40rem;
   }
   .photo {
-    background: url(/assets/img/perfil-photo1.jpg) no-repeat;
-    background-size: contain;
-    background-position: center;
+    background: url(perfil-photo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
 
     max-width: 800px;
+    width: 800px;
     margin: 0 auto;
   }
   .info {
