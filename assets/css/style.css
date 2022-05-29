@@ -246,9 +246,9 @@ body {
     left: 40rem;
   }
   .photo {
-    background: url(/assets/img/pexels-ozan-çulha-12189062.jpg) no-repeat,
-      url(/assets/img/pexels-ozan-çulha-12189044.jpg) no-repeat;
-    background-size: cover;
+    background: url(/assets/img/perfil-photo1.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
 
     max-width: 800px;
     margin: 0 auto;
